@@ -3113,5 +3113,10 @@ ul.tag-men {
 .image_fallback {
 	width: 100%;
 	height: 100%;
+}
 
+/*  Стил корзины  */
+
+#cart table a > img {
+	height: 100px;
 }

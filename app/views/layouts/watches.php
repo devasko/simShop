@@ -97,7 +97,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- Content block goes here -->
 
     <div class="content">
-        <?php /*session_destroy();*/  debug( $_SESSION ); ?>
+        <?php // session_destroy() //debug( $_SESSION ); ?>
         <?= $content; ?>
     </div>
 
@@ -165,6 +165,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
 </div>
 <!--footer-end-->
+
+<!--  Модальное окно корзины  -->
+
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Корзина</h4>
+            </div>
+
+            <div class="modal-body">
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
+                <a href="cart/view" type="button" class="btn btn-primary">Оформить заказ</a>
+                <button type="button" class="btn btn-danger" onclick="clearCart()">Очистить корзину</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
 <?php $curr = \ishop\App::$app->getProperty( 'currency' ); ?>
 <script>
     var path = '<?= PATH; ?>',
@@ -173,6 +199,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         symbolRight = '<?= $curr['symbol_right']; ?>'
 </script>
 <script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/megamenu.js"></script>
 <!--dropdown-->
 <!--Slider-Starts-Here-->
