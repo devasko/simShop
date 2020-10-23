@@ -1,0 +1,710 @@
+[17-06-2019 19:51:53] Текст ошибки : Нет соединения с БД | Файл : E:\OSPanel\domains\iShop\vendor\ishop\core\Db.php | Строка : 18 
+======
+[17-06-2019 21:11:42] Текст ошибки : Class 'app\controllers\App' not found | Файл : E:\OSPanel\domains\iShop\app\controllers\MainController.php | Строка : 20 
+======
+[17-06-2019 21:17:00] Текст ошибки : Too few arguments to function ishop\Cache::set(), 1 passed in E:\OSPanel\domains\iShop\app\controllers\MainController.php on line 29 and at least 2 expected | Файл : E:\OSPanel\domains\iShop\vendor\ishop\core\Cache.php | Строка : 11 
+======
+[18-06-2019 00:21:44] Текст ошибки : Контроллер app\controllers\PageController не найден | Файл : E:\OSPanel\domains\iShop\vendor\ishop\core\Router.php | Строка : 39 
+======
+[29-06-2019 17:02:01] Текст ошибки : Страница не найдена | Файл : E:\OSPanel\domains\iShop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[27-09-2020 11:16:05] Текст ошибки : Страница не найдена | Файл : E:\OSPanel\domains\iShop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:52:18] Текст ошибки : Нет соединения с БД | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Db.php | Строка : 18 
+======
+[04-10-2020 13:52:18] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 13:56:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[04-10-2020 14:25:10] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[12-10-2020 10:02:37] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[12-10-2020 12:47:23] Текст ошибки : Class 'app\widgets\currency\R' not found | Файл : F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php | Строка : 23 
+======
+[12-10-2020 12:47:49] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\controllers\AppController.php on line 20 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[12-10-2020 12:55:07] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[12-10-2020 12:57:24] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[12-10-2020 12:57:48] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[12-10-2020 12:58:27] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[12-10-2020 17:40:14] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 12:58:45] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 20:15:16] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php on line 21 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 20:23:07] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php on line 21 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 20:24:07] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php on line 21 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 20:24:19] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php on line 21 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 20:26:18] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php on line 21 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 20:26:22] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 20:26:46] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php on line 21 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 20:26:46] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 20:30:05] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 20:59:55] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 21:00:24] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php on line 21 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 21:00:24] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 21:00:40] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php on line 21 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 21:00:40] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 21:01:00] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php on line 21 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 21:05:34] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php on line 21 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 21:05:34] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 21:05:53] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php on line 21 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 21:05:53] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 21:06:00] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php on line 21 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 21:31:24] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php on line 21 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 21:31:24] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 21:32:12] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php on line 21 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 21:32:12] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 21:32:29] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php on line 21 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 21:32:49] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php on line 21 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 21:33:08] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\widgets\currency\Currency.php on line 21 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 21:37:43] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 21:39:43] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:05:57] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:06:34] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:06:41] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:09:07] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:09:25] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:09:33] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:09:34] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:10:21] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:10:22] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:10:33] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:10:35] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:11:18] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:11:33] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:11:46] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:11:47] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:14:28] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:15:11] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:22:42] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:22:50] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:27:15] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:28:48] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:30:43] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:33:25] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:33:38] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:42:32] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 22:52:56] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:07:10] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:07:22] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:07:32] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:07:41] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:07:42] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:07:46] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:07:48] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:07:49] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:07:49] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:08:15] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:08:20] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:08:23] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:08:24] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:08:25] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:08:25] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:10:08] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:10:11] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:13:17] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:16:18] Текст ошибки : Too few arguments to function ishop\Registry::setProperty(), 1 passed in F:\OpenServer\domains\ishop\app\views\Main\index.php on line 22 and exactly 2 expected | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Registry.php | Строка : 13 
+======
+[13-10-2020 23:20:44] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:48:02] Текст ошибки : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' AND status = '1' LIMIT 8  -- keep-cache' at line 1 | Файл : F:\OpenServer\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка : 194 
+======
+[13-10-2020 23:49:33] Текст ошибки : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' AND status = '1' LIMIT 8  -- keep-cache' at line 1 | Файл : F:\OpenServer\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка : 194 
+======
+[13-10-2020 23:49:59] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[13-10-2020 23:50:35] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:19:18] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:19:52] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:21:08] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:21:33] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:26:36] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:28:13] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:28:36] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:29:20] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:30:43] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:31:21] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:32:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:35:30] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:39:00] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:40:34] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:41:15] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:45:00] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:45:08] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:46:05] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:47:59] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:49:04] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:49:17] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 00:50:39] Текст ошибки : Контроллер app\controllers\CartController не найден | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 39 
+======
+[14-10-2020 17:18:31] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[14-10-2020 21:57:21] Текст ошибки : Call to undefined method ishop\Cache::getInstance() | Файл : F:\OpenServer\domains\ishop\app\controllers\AppController.php | Строка : 28 
+======
+[14-10-2020 21:59:17] Текст ошибки : Call to undefined method ishop\Cache::getInstance() | Файл : F:\OpenServer\domains\ishop\app\widgets\menu\Menu.php | Строка : 36 
+======
+[14-10-2020 22:02:39] Текст ошибки : Call to undefined method ishop\Cache::getInstance() | Файл : F:\OpenServer\domains\ishop\app\controllers\AppController.php | Строка : 27 
+======
+[14-10-2020 22:05:36] Текст ошибки : Call to undefined method ishop\Cache::getInstance() | Файл : F:\OpenServer\domains\ishop\app\controllers\AppController.php | Строка : 27 
+======
+[14-10-2020 22:06:03] Текст ошибки : Call to undefined method ishop\Cache::getInstance() | Файл : F:\OpenServer\domains\ishop\app\controllers\AppController.php | Строка : 27 
+======
+[14-10-2020 22:06:36] Текст ошибки : Call to undefined method ishop\Cache::getInstance() | Файл : F:\OpenServer\domains\ishop\app\controllers\AppController.php | Строка : 27 
+======
+[17-10-2020 14:02:24] Текст ошибки : SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop.test' doesn't exist | Файл : F:\OpenServer\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка : 194 
+======
+[17-10-2020 14:02:24] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 14:46:31] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 14:56:40] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 14:58:10] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 14:58:43] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 14:59:19] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 14:59:27] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 15:00:57] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 15:02:27] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 15:04:29] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 15:06:03] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 15:07:40] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 15:08:54] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 15:10:22] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 15:12:26] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 15:13:04] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 20:41:12] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 20:41:58] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 20:43:34] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 20:44:15] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 20:44:59] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 20:45:31] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 20:46:20] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 21:40:11] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 21:41:03] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 21:41:43] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 21:42:25] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 21:44:13] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 21:45:02] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 21:45:48] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 21:46:11] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 21:48:24] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 21:48:37] Текст ошибки : Контроллер app\controllers\CategoryController не найден | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 39 
+======
+[17-10-2020 21:48:39] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 21:52:06] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[17-10-2020 21:54:01] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 12:34:13] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 12:37:19] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 12:38:35] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 12:38:45] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 12:42:40] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 12:44:23] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 12:44:48] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 12:45:40] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 12:45:53] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 12:45:56] Текст ошибки : Контроллер app\controllers\CategoryController не найден | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 39 
+======
+[19-10-2020 12:45:57] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 12:51:15] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 12:54:09] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 12:58:16] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 12:58:38] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 12:59:11] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 12:59:37] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:02:09] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:02:25] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:03:09] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:04:43] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:05:56] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:07:50] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:09:16] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:09:45] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:09:45] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:31:02] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:33:17] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:33:34] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:37:35] Текст ошибки : Контроллер app\controllers\ProductController не найден | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 39 
+======
+[19-10-2020 13:40:22] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:40:22] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:40:22] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:40:22] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:40:22] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:40:22] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:40:22] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:40:22] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:40:22] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:40:22] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:40:22] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:41:51] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:41:51] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:41:51] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:41:51] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:41:51] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:41:51] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:41:51] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:41:51] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:41:51] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:41:51] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:41:52] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:41:52] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:41:52] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:44:17] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:45:09] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:45:11] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:45:33] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 13:45:45] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 14:49:36] Текст ошибки : Страница продукта  не найдена | Файл : F:\OpenServer\domains\ishop\app\controllers\ProductController.php | Строка : 14 
+======
+[19-10-2020 14:50:18] Текст ошибки : Страница продукта  не найдена | Файл : F:\OpenServer\domains\ishop\app\controllers\ProductController.php | Строка : 14 
+======
+[19-10-2020 14:51:05] Текст ошибки : Страница продукта casio-ga-1000-1aer не найдена | Файл : F:\OpenServer\domains\ishop\app\controllers\ProductController.php | Строка : 14 
+======
+[19-10-2020 14:51:33] Текст ошибки : Страница продукта 'casio-ga-1000-1aer' не найдена | Файл : F:\OpenServer\domains\ishop\app\controllers\ProductController.php | Строка : 14 
+======
+[19-10-2020 14:55:47] Текст ошибки : Страница продукта 'casio-ga-1000-1aer' не найдена | Файл : F:\OpenServer\domains\ishop\app\controllers\ProductController.php | Строка : 14 
+======
+[19-10-2020 15:15:43] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 18:31:29] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 18:31:55] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 18:51:31] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 18:51:59] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 18:52:12] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 19:16:26] Текст ошибки : syntax error, unexpected ')', expecting ']' | Файл : F:\OpenServer\domains\ishop\app\views\Product\view.php | Строка : 81 
+======
+[19-10-2020 20:21:19] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 20:21:32] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 20:23:50] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 20:55:40] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 20:56:21] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 20:59:41] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 21:00:55] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 21:02:05] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 21:03:08] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 21:03:22] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 21:03:55] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 21:05:40] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 21:06:21] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 21:06:41] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 21:06:54] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 21:08:32] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 21:08:57] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 21:09:50] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 21:10:20] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 21:11:00] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[19-10-2020 21:11:20] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[20-10-2020 18:36:57] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[20-10-2020 19:12:48] Текст ошибки : Контроллер app\controllers\CartController не найден | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 39 
+======
+[20-10-2020 20:14:19] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[20-10-2020 20:15:16] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[20-10-2020 20:15:32] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[20-10-2020 20:16:04] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[20-10-2020 20:17:09] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[20-10-2020 20:17:12] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[20-10-2020 20:18:23] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[21-10-2020 17:48:39] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 00:11:15] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 00:15:31] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 00:17:20] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 00:19:14] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 00:19:33] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 00:20:18] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 00:20:28] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 00:20:38] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 00:22:35] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 00:23:08] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 00:25:33] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 00:25:46] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 00:25:51] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 00:26:43] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 00:26:58] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 00:39:11] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 00:39:20] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 16:26:31] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 20:12:34] Текст ошибки : Контроллер app\controllers\CategoryController не найден | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 39 
+======
+[22-10-2020 22:06:07] Текст ошибки : SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product' in 'where clause' | Файл : F:\OpenServer\domains\ishop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка : 194 
+======
+[22-10-2020 22:20:13] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 22:20:43] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 22:20:56] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 22:21:36] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 22:24:52] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 22:27:07] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 22:27:23] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 22:27:32] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 22:27:52] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 22:27:55] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 22:28:02] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 22:28:04] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 22:28:48] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 22:30:40] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 22:38:22] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 22:58:19] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 22:58:58] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 22:58:59] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[22-10-2020 23:00:48] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[23-10-2020 10:35:29] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[23-10-2020 10:38:21] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[23-10-2020 10:40:00] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[23-10-2020 10:40:29] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[23-10-2020 10:40:34] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[23-10-2020 18:00:42] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
+[23-10-2020 18:16:21] Текст ошибки : Страница не найдена | Файл : F:\OpenServer\domains\ishop\vendor\ishop\core\Router.php | Строка : 43 
+======
