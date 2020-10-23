@@ -97,6 +97,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- Content block goes here -->
 
     <div class="content">
+        <?php /*session_destroy();*/  debug( $_SESSION ); ?>
         <?= $content; ?>
     </div>
 
@@ -172,7 +173,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         symbolRight = '<?= $curr['symbol_right']; ?>'
 </script>
 <script src="js/jquery-1.11.0.min.js"></script>
-<script src="js/simpleCart.min.js"> </script>
 <script type="text/javascript" src="js/megamenu.js"></script>
 <!--dropdown-->
 <!--Slider-Starts-Here-->
