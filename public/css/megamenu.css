@@ -57,8 +57,8 @@ Screen style's
 }
 
 .menu-mobile:after {
-    content: "\f394";
-    font-family: "Ionicons";
+    content: "\2630";
+    /*font-family: "Ionicons";*/
     font-size: 2.5rem;
     padding: 0;
     float: right;
@@ -70,8 +70,8 @@ Screen style's
 }
 
 .menu-dropdown-icon:before {
-    content: "\f489";
-    font-family: "Ionicons";
+    content: "\2026";
+    /*font-family: "Ionicons";*/
     display: none;
     cursor: pointer;
     float: right;

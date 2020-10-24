@@ -37,7 +37,7 @@ class Cart extends AppModel {
         $_SESSION['cart.sum'] = isset( $_SESSION['cart.sum'] ) ? $_SESSION['cart.sum'] + $qty * ( $price * $_SESSION['cart.currency']['value'] ) : $qty * ( $price * $_SESSION['cart.currency']['value'] );
     }
 
-    public function deleteItem( $id )    {
+    public function deleteItem( $id ) {
 
         $qtyMinus = $_SESSION['cart'][$id]['qty'];
         $sumMinus = $_SESSION['cart'][$id]['qty'] * $qtyMinus;
@@ -45,5 +45,28 @@ class Cart extends AppModel {
         $_SESSION['cart.qty'] -= $qtyMinus;
         $_SESSION['cart.sum'] -= $sumMinus;
         unset( $_SESSION['cart'][$id] );
+    }
+
+    public static function recalcCart( $curr ) {
+
+        if ( isset( $_SESSION['cart.currency'] )) {
+            if ( $_SESSION['cart.currency']['base'] ) {
+                $_SESSION['cart.sum'] *= $curr->value;
+            } else {
+                $_SESSION['cart.sum'] =  $_SESSION['cart.sum'] / $_SESSION['cart.currency']['value'] * $curr->value;
+            }
+
+            foreach ( $_SESSION['cart'] as $item => $val ) {
+                if ( $_SESSION['cart.currency']['base'] ) {
+                    $_SESSION['cart'][$item]['price'] *= $curr->value;
+                } else {
+                    $_SESSION['cart'][$item]['price'] =  $_SESSION['cart'][$item]['price'] / $_SESSION['cart.currency']['value'] * $curr->value;
+                }
+            }
+
+            foreach ( $curr as $key => $val ) {
+                $_SESSION['cart.currency'][$key] = $val;
+            }
+        }
     }
 }

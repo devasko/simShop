@@ -211,9 +211,52 @@ span.simpleCart_total {
 	-moz-user-select: none;
 	user-select: none;
 }
+
 .dropdown.open{
 	z-index: 2;
 }
+@media ( max-width: 540px ) {
+	.dropdown.open > div {
+		top: 18px;
+	}
+}
+
+@media ( min-width: 541px ) and ( max-width: 679px ) {
+	.dropdown.open > div {
+		top: 23px;
+	}
+}
+@media ( min-width: 680px ) and ( max-width: 800px ) {
+	.dropdown.open > div {
+		top: 24px;
+	}
+}
+@media ( min-width: 801px ) and ( max-width: 989px ) {
+	.dropdown.open > div {
+		top: 33px;
+	}
+}
+@media ( min-width: 990px ) and ( max-width: 1024px ) {
+	.dropdown.open > div {
+		top: 24px;
+	}
+}
+@media ( min-width: 1025px ) {
+	.dropdown.open > div {
+		top: 27px;
+	}
+}
+/*@media ( min-width: 1024px ) {*/
+/*	.dropdown.open > div {*/
+/*		top: 27px;*/
+/*	}*/
+/*}*/
+/*@media ( max-width: 1024px ) {*/
+/*	.dropdown.open > div {*/
+/*		top: 24px;*/
+/*	}*/
+/*}*/
+
 .dropdown:hover,
 .dropdown.focus{
 	/*--background:#F7F7F7;--*/
@@ -3124,4 +3167,9 @@ ul.tag-men {
 .del-item {
 	cursor: pointer;
 }
+
+.simpleCart_total {
+	margin-left: .4em;
+}
+
 

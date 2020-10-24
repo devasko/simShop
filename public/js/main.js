@@ -48,7 +48,7 @@ function showCart( cart ) {
     if ( $( '.cart-sum' ).text() ) {
         $( '.simpleCart_total' ).html( $( '#cart .cart-sum' ).text() );
     } else {
-        $( '.simpleCart_total' ).text( 'Empty cart' );
+        $( '.simpleCart_total' ).text( 'Корзина пуста' );
     }
 }
 
@@ -67,7 +67,20 @@ function getCart() {
     });
 }
 
+function clearCart() {
+    $.ajax({
+        url: path + '/cart/clear',
+        type: 'GET',
 
+        success: function ( res ) {
+            showCart( res );
+        },
+
+        error: function () {
+            alert( 'Ошибка! Попробуйте позже' );
+        }
+    });
+}
 
 //  Валюта
 $( '#currency' ).change( function () {
