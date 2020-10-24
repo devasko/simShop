@@ -3115,8 +3115,13 @@ ul.tag-men {
 	height: 100%;
 }
 
-/*  Стил корзины  */
+/*  Стили корзины  */
 
 #cart table a > img {
 	height: 100px;
 }
+
+.del-item {
+	cursor: pointer;
+}
+

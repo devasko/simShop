@@ -9,6 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
     <base href="/">
     <?= $this->getMeta(); ?>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
@@ -17,6 +18,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <!--theme-style-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!--//theme-style-->
 </head>
@@ -45,13 +47,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
             <div class="col-md-6 top-header-left">
                 <div class="cart box_1">
-                    <a href="checkout.html">
+                    <a href="cart/show" onclick="getCart(); return false;">
                         <div class="total">
-                            <span class="simpleCart_total"></span></div>
-                        <img src="images/cart-1.png" alt="" />
+                            <img src="images/cart-1.png" alt="" />
+                            <?php if( !empty( $_SESSION['cart'] )): ?>
+                                <span class="simpleCart_total"><?= $_SESSION['cart.currency']['symbol_left'] . $_SESSION['cart.sum'] . $_SESSION['cart.currency']['symbol_right']; ?></span>
+                            <?php else: ?>
+                                <span class="simpleCart_total">Empty cart</span>
+                            <?php endif; ?>
+                        </div>
                     </a>
-                    <p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
-                    <div class="clearfix"> </div>
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -97,7 +102,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- Content block goes here -->
 
     <div class="content">
-        <?php // session_destroy() //debug( $_SESSION ); ?>
         <?= $content; ?>
     </div>
 
