@@ -6,6 +6,17 @@ use RedBeanPHP\R;
 
 class SearchController extends AppController {
 
+    public function indexAction() {
+
+        $query = !empty( trim( $_GET['search'] )) ? trim( $_GET['search'] ) : null;
+
+        if ( $query ) {
+            $products = R::find( 'product', "title LIKE ?", ["%{$query}%"] );
+        }
+        $this->setMeta( 'Поиск: ' . h( $query ) );
+        $this->set( compact( 'products', 'query' ));
+    }
+
     public function typeaheadAction() {
 
         if ( $this->isAjax() ) {
