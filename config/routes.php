@@ -3,7 +3,11 @@
 use ishop\Router;
 
 // default user routes
+//    Product route
 Router::add('^product/(?P<alias>[a-z0-9-]+)/?$', ['controller' => 'Product', 'action' => 'view']);
+
+//    Category route
+Router::add('^category/(?P<alias>[a-z0-9-]+)/?$', ['controller' => 'Category', 'action' => 'view']);
 
 
 
