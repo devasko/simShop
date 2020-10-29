@@ -17,7 +17,7 @@ class ProductController extends AppController {
      }
 
         // Хлебные крошки
-     $breadcrumbs = Breadcrumbs::getBreadcrumbs( $product->category_id, $product->title );
+     $breadcrumbs = Breadcrumbs::getBreadcrumbs( $product->category_id );
 
         // Связанные товары
      $related = R::getAll( "SELECT * FROM related_product JOIN product ON product.id = related_product.related_id WHERE related_product.product_id = ?", [$product->id] );

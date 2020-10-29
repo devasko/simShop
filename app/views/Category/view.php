@@ -4,8 +4,7 @@
     <div class="container">
         <div class="breadcrumbs-main">
             <ol class="breadcrumb">
-                <li><a href="<?= PATH; ?>">Главная</a></li>
-                <li class="active"><?= h( $category->title ); ?></li>
+                <?php if( $breadcrumbs ): echo $breadcrumbs; endif; ?>
             </ol>
         </div>
     </div>
@@ -44,10 +43,13 @@
                             </div>
                         <?php endforeach; ?>
                         <div class="clearfix"></div>
+                        <div class="text-center">
+                            <p>(<?= count( $products ); ?> товар(ов) из <?= $countItems; ?>)</p>
+                            <?php if( $pagination->countPages > 1 ): ?>
+                                <?= $pagination; ?>
+                            <?php endif; ?>
+                        </div>
                     </div>
-<!--                --><?php //else: ?>
-<!--                    <h3>В категории "--><?//= h( $category->title ); ?><!--" товары не найдены. :(</h3>-->
-<!--                --><?php //endif; ?>
             </div>
             <div class="col-md-3 prdt-right">
                 <div class="w_sidebar">

@@ -3,11 +3,7 @@
     <div class="container">
         <div class="breadcrumbs-main">
             <ol class="breadcrumb">
-                <?php if( $breadcrumbs ): echo $breadcrumbs; ?>
-
-                <?php endif; ?>
-<!--                <li><a href="--><?//= PATH; ?><!--">Home</a></li>-->
-<!--                <li class="active">Single</li>-->
+                <?php if( $breadcrumbs ): echo $breadcrumbs; endif; ?>
             </ol>
         </div>
     </div>
