@@ -46,8 +46,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
             </div>
             <div class="col-md-6 top-header-left">
+                <div class="user box_1 btn-group">
+                    <a class="dropdown-toggle" data-toggle="dropdown">Профиль <span class="caret"></span>
+                        <ul class="dropdown-menu">
+                            <?php if( !empty( $_SESSION['user'] )): ?>
+                                <li><a href="#">Добро пожаловать, <?= h( $_SESSION['user']['name']); ?></a></li>
+                                <li><a href="user/logout">Выход</a></li>
+                            <?php else: ?>
+                                <li><a href="user/login">Вход</a></li>
+                                <li><a href="user/signup">Регистрация</a></li>
+
+                            <?php endif; ?>
+                        </ul>
+                    </a>
+                </div>
                 <div class="cart box_1">
-                    <a href="cart/show" onclick="getCart(); return false;">
+                    <a class="cart__link" href="cart/show" onclick="getCart(); return false;">
                         <div class="total">
                             <img src="images/cart-1.png" alt="" />
                             <?php if( !empty( $_SESSION['cart'] )): ?>
@@ -94,8 +108,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <input type="text" class="typeahead" id="typeahead" name="search" placeholder="Поиск по сайту..">
                         <input type="submit" value="">
                     </form>
-<!--                    <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">-->
-<!--                    <input type="submit" value="">-->
                 </div>
             </div>
             <div class="clearfix"> </div>
@@ -106,6 +118,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- Content block goes here -->
 
     <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <?php if( isset( $_SESSION['error'] )): ?>
+                        <div class="alert alert-danger">
+                            <?php echo $_SESSION['error']; unset(  $_SESSION['error'] ); ?>
+                        </div>
+                    <?php endif; ?>
+
+                    <?php if( isset( $_SESSION['success'] )): ?>
+                        <div class="alert alert-success">
+                            <?php echo $_SESSION['success']; unset(  $_SESSION['success'] ); ?>
+                        </div>
+                    <?php endif; ?>
+                </div>
+            </div>
+        </div>
         <?= $content; ?>
     </div>
 

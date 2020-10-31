@@ -142,7 +142,12 @@ span.simpleCart_total {
 	vertical-align: middle;
 	color: #fff;
 }
+.cart {
+	margin-right: 2em;
+}
+
 .cart box_1 a:hover{
+	color: #337ab7;
 	text-decoration:none;
 }
 .box_1 a img {
@@ -246,16 +251,7 @@ span.simpleCart_total {
 		top: 27px;
 	}
 }
-/*@media ( min-width: 1024px ) {*/
-/*	.dropdown.open > div {*/
-/*		top: 27px;*/
-/*	}*/
-/*}*/
-/*@media ( max-width: 1024px ) {*/
-/*	.dropdown.open > div {*/
-/*		top: 24px;*/
-/*	}*/
-/*}*/
+
 
 .dropdown:hover,
 .dropdown.focus{
@@ -1474,7 +1470,8 @@ a.mask {
 .account-bottom {
     margin-top: 2.2em;
 }
-.account-left input[type="text"],.account-left input[type="password"] {
+.account-left input[type="text"],.account-left input[type="password"],
+/*.account-left input[type="email"] {*/
     width: 90%;
     margin: 0px;
     color: #000;
@@ -3158,10 +3155,25 @@ ul.tag-men {
 	height: 100%;
 }
 
-/*  Стили корзины  */
+/*   Корзина  */
 
 #cart table a > img {
 	height: 100px;
+}
+
+#cart:hover {
+
+}
+
+#cart:hover.simpleCart_total {
+	color: #337ab7;
+}
+#cart .total:hover {
+	color: #337ab7;
+}
+
+.cart__link:hover .simpleCart_total {
+		color: #337ab7;
 }
 
 .del-item {
@@ -3171,6 +3183,11 @@ ul.tag-men {
 .simpleCart_total {
 	margin-left: .4em;
 }
+
+/*.simpleCart_total:hover {*/
+/*	color: #337ab7;*/
+/*}*/
+
 
 
  /*  Поиск по сайту  */
@@ -3284,3 +3301,56 @@ span.twitter-typeahead {
 .input-group.input-group-lg span.twitter-typeahead .tt-dropdown-menu {
 	top: 46px !important;
 }
+
+/* Авторизация и регистрация */
+
+.user {
+}
+
+.dropdown-toggle {
+	color: #fff;
+}
+
+.dropdown-toggle li {
+	background-color: #000;
+}
+
+.dropdown-toggle a {
+	background-color: #000;
+}
+
+.dropdown-toggle:hover {
+	text-decoration: none;
+	color: #337ab7;
+	cursor: pointer;
+}
+
+.dropdown-menu {
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	font-size: 12px;
+}
+
+.dropdown-menu > li {
+	padding: 3px;
+	border-bottom: 1px solid #73B6E1;
+	color: #fff;
+	cursor: pointer;
+}
+
+.dropdown-menu > li:hover {
+	background-color: #73B6E1;
+}
+
+.dropdown-menu > li:hover a {
+	background-color: #73B6E1;
+	color: #fff;
+}
+
+
+.dropdown-menu > li a {
+	text-transform: uppercase;
+	color: #fff;
+}
+
