@@ -123,7 +123,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="col-md-12">
                     <?php if( isset( $_SESSION['error'] )): ?>
                         <div class="alert alert-danger">
-                            <?php echo $_SESSION['error']; unset(  $_SESSION['error'] ); ?>
+                            <?php echo $_SESSION['error']; unset(  $_SESSION['error'] ); echo '<br> Попробуйте ещё раз'; ?>
                         </div>
                     <?php endif; ?>
 
