@@ -1472,7 +1472,7 @@ a.mask {
 }
 .account-left input[type="text"],.account-left input[type="password"],
 .account-left input[type="email"] {
-    width: 90%;
+    /*width: 90%;*/
     margin: 0px;
     color: #000;
     background: none;
@@ -2301,7 +2301,7 @@ figure.effect-bubba p {
 }
 .account-left input[type="text"], .account-left input[type="password"] {
     margin-bottom: 15px;
-	width: 95%;
+	/*width: 95%;*/
 }
 .account-bottom {
     margin-top: 1.4em;
@@ -2368,7 +2368,7 @@ ul.cart-header li span, ul.cart-header1 li span, ul.cart-header2 li span {
 }
 .account-left input[type="text"], .account-left input[type="password"] {
     margin-bottom: 10px;
-    width: 95%;
+    /*width: 95%;*/
     font-size: 12px;
     padding: 7px 10px;
 }
@@ -3352,5 +3352,24 @@ span.twitter-typeahead {
 .dropdown-menu > li a {
 	text-transform: uppercase;
 	color: #fff;
+}
+
+/*  Формы регистрации */
+
+form .has-success .form-control {
+	border-color: #3C763D;
+}
+
+form .has-error .form-control {
+	border-color: #A94442;
+}
+
+form .has-success .has-error {
+	position: relative;
+}
+
+.form-control-feedback{
+	top: 25px;
+	right: 10px;
 }
 
