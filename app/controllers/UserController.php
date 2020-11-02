@@ -16,24 +16,38 @@ class UserController extends AppController {
                 $_SESSION['form_data'] = $data;
             } else {
                 $user->attributes['password'] = password_hash( $user->attributes['password'], PASSWORD_DEFAULT );
-                if ( $user->save( 'user' )) {
-                    $_SESSION['success'] = 'Пользователь зарегистрирован!';
+                if ( $id = $user->save( 'user' )) {
+                    $_SESSION['success'] = "Пользователь {$data['name']} зарегистрирован!";
+                    foreach ( $data as $key => $val ) {
+                        $_SESSION['user'][$key] = $val;
+                    }
                 } else {
-                    $_SESSION['error'] = 'Пользователь зарегистрирован!';
+                    $_SESSION['error'] = 'Ошбка регистрации';
                 }
             }
 
-            redirect();
+            redirect( PATH );
         }
         $this->setMeta( 'Регистрация' );
     }
 
     public function loginAction() {
 
+        if ( !empty( $_POST )) {
+            $user = new User();
+            if ( $user->login() ) {
+                $_SESSION['success'] = 'вы успешно авторизованы';
+            } else {
+                $_SESSION['error'] = 'Логин или пароль введен неверно';
+            }
+            redirect();
+        }
+        $this->setMeta( 'Вход' );
     }
 
     public function logoutAction() {
 
+        if ( isset( $_SESSION['user'] )) unset( $_SESSION['user'] );
+        redirect( PATH );
     }
-
 }

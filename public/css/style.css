@@ -3373,3 +3373,12 @@ form .has-success .has-error {
 	right: 10px;
 }
 
+li.greeting {
+	padding: 5px;
+	border-bottom: 1px solid #73B6E1;
+	font-size: 13px;
+	font-weight: 500;
+	color: #fff;
+	cursor: default;
+	text-transform: none;
+}

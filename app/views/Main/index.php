@@ -23,13 +23,16 @@
     <div class="container">
         <div class="about-top grid-1">
             <?php foreach( $brands  as $brand ): ?>
+
             <div class="col-md-4 about-left">
                 <figure class="effect-bubba">
-                    <img class="img-responsive" src="images/<?= $brand->img; ?>" alt="<?= $brand->title; ?>"/>
-                    <figcaption>
-                        <h2><?= $brand->title; ?></h2>
-                        <p><?= $brand->description; ?></p>
-                    </figcaption>
+                    <a href="category/<?= $brand->alias; ?>" class="brand-link">
+                        <img class="img-responsive" src="images/<?= $brand->img; ?>" alt="<?= $brand->title; ?>"/>
+                        <figcaption>
+                            <h2><?= $brand->title; ?></h2>
+                            <p><?= $brand->description; ?></p>
+                        </figcaption>
+                    </a>
                 </figure>
             </div>
             <?php endforeach; ?>

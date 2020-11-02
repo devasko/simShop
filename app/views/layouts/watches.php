@@ -50,7 +50,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <a class="dropdown-toggle" data-toggle="dropdown">Профиль <span class="caret"></span>
                         <ul class="dropdown-menu">
                             <?php if( !empty( $_SESSION['user'] )): ?>
-                                <li><a href="#">Добро пожаловать, <?= h( $_SESSION['user']['name']); ?></a></li>
+                                <li class="greeting">Добро пожаловать, <?= h( $_SESSION['user']['name']); ?></li>
                                 <li><a href="user/logout">Выход</a></li>
                             <?php else: ?>
                                 <li><a href="user/login">Вход</a></li>

@@ -1,10 +1,24 @@
+<!--start-breadcrumbs-->
+<div class="breadcrumbs">
+    <div class="container">
+        <div class="breadcrumbs-main">
+            <ol class="breadcrumb">
+                <li><a href="<?= PATH; ?>">Главная</a></li>
+                <li class="active">Регистрация</li>
+            </ol>
+        </div>
+    </div>
+</div>
+<!--end-breadcrumbs-->
+
+<!--  start-product  -->
 <div class="prdt">
     <div class="container">
         <div class="prdt-top">
             <div class="col-md-12">
                 <div class="product-one signup">
                     <div class="register-top heading">
-                        <h2>Register</h2>
+                        <h2>Регистрация</h2>
                     </div>
 
                     <div class="register-main">
@@ -48,3 +62,4 @@
         </div>
     </div>
 </div>
+<!--  ent-product  -->

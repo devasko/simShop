@@ -18,7 +18,7 @@ class Breadcrumbs {
         }
 
         if ( $name ) {
-            $breadcrumbs .= "<li>$name</li>";
+            $breadcrumbs .= "<li class='active'>$name</li>";
         }
 
         return $breadcrumbs;
