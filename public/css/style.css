@@ -3382,3 +3382,13 @@ li.greeting {
 	cursor: default;
 	text-transform: none;
 }
+
+/* Оформление заказа */
+
+.cart table img {
+	height: 150px;
+}
+
+.del-item, .clearCart {
+	cursor: pointer;
+}

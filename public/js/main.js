@@ -22,7 +22,6 @@ $( '#typeahead' ).typeahead({
 });
 
 $( '#typeahead' ).bind( 'typeahead:select', function ( ev, suggestion ) {
-    // console.log( suggestion );
     window.location = path + '/search/?search=' + encodeURIComponent( suggestion.title );
 } );
 
@@ -63,6 +62,10 @@ $( '#cart .modal-body' ).on( 'click', '.del-item', function () {
         }
     });
 });
+
+$( '.clearCart' ).on( 'click', function () {
+    clearCart();
+} )
 
 function showCart( cart ) {
     if ( $.trim( cart ) == '<h3>Корзина пуста</h3>' ) {

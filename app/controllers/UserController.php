@@ -22,7 +22,7 @@ class UserController extends AppController {
                         $_SESSION['user'][$key] = $val;
                     }
                 } else {
-                    $_SESSION['error'] = 'Ошбка регистрации';
+                    $_SESSION['error'] = 'Ошибка регистрации';
                 }
             }
 
@@ -36,7 +36,7 @@ class UserController extends AppController {
         if ( !empty( $_POST )) {
             $user = new User();
             if ( $user->login() ) {
-                $_SESSION['success'] = 'вы успешно авторизованы';
+                $_SESSION['success'] = 'Вы успешно авторизованы';
             } else {
                 $_SESSION['error'] = 'Логин или пароль введен неверно';
             }
