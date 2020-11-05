@@ -79,6 +79,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <!--top-header-->
 <!--start-logo-->
+
 <div class="logo">
     <a href="<?= PATH; ?>"><h1>Luxury Watches</h1></a>
 </div>
@@ -135,6 +136,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
             </div>
         </div>
+<!--        --><?php //debug( $_SESSION ); ?>
         <?= $content; ?>
     </div>
 

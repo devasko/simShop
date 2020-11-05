@@ -90,11 +90,10 @@
                                     <label for="comment">Комментарий к заказу</label>
                                     <textarea name="comment" id="comment" class="form-control" ></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-default">Оформить</button>
+                                <button type="submit" class="btn btn-default order-btn">Оформить</button>
 
 
                                 <div class="clearfix"></div>
-                                <button type="submit" class="btn btn-default" value="Submit">Зарегистрироваться</button>
                             </form>
                             <?php if ( isset( $_SESSION['form_data'] )) unset( $_SESSION['form_data'] ); ?>
                         </div>

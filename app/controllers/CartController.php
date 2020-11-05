@@ -73,11 +73,11 @@ class CartController extends AppController {
 //            Проверка пользователя
             if ( !User::checkAuth() ) {
                 $user = new User();
-                $data = $_POST;
-                $user->load( $data );
-                if ( !$user->validate( $data ) || !$user->checkUnique() ) {
+                $user_data = $_POST;
+                $user->load( $user_data );
+                if ( !$user->validate( $user_data ) || !$user->checkUnique() ) {
                     $user->getErrors();
-                    $_SESSION['form_data'] = $data;
+                    $_SESSION['form_data'] = $user_data;
                     redirect();
                 } else {
                     $user->attributes['password'] = password_hash( $user->attributes['password'], PASSWORD_DEFAULT );
@@ -89,10 +89,14 @@ class CartController extends AppController {
             }
 
 //          Сохранение заказа
-            $data['user_id'] = isset( $user_id ) ? $user_id : $_SESSION['user']['id'];
-            $data['comment'] = !empty( $_POST['comment'] ) ? $_POST['comment'] : '';
+            $order_data['user_id'] = isset( $user_id ) ? $user_id : $_SESSION['user']['id'];
+            $order_data['currency'] = isset( $_SESSION['cart.currency']['code'] ) ? $_SESSION['cart.currency']['code'] : '';
+            $order_data['note'] = !empty( $_POST['comment'] ) ? $_POST['comment'] : '';
+            $order_id = Order::saveOrder( $order_data );
+
+            if ( $order_id ) $_SESSION['success'] = 'Ваш заказ успешно оформлен!';
+
             $user_email = isset( $_SESSION['user']['email'] ) ? $_SESSION['user']['email'] : $_POST['email'];
-            $order_id = Order::saveOrder( $data );
             Order::mailOrder( $order_id, $user_email );
         }
         redirect();

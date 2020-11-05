@@ -63,12 +63,8 @@ $( '#cart .modal-body' ).on( 'click', '.del-item', function () {
     });
 });
 
-$( '.clearCart' ).on( 'click', function () {
-    clearCart();
-} )
-
 function showCart( cart ) {
-    if ( $.trim( cart ) == '<h3>Корзина пуста</h3>' ) {
+    if ( $.trim( cart ) === '<h3>Корзина пуста</h3>' ) {
         $( '#cart .modal-footer a, #cart .modal-footer .btn-danger' ).css( 'display', 'none' );
     } else {
         $( '#cart .modal-footer a, #cart .modal-footer .btn-danger' ).css( 'display', 'inline-block' );
@@ -112,6 +108,15 @@ function clearCart() {
         }
     });
 }
+
+$( '.clearCart' ).on( 'click', function () {
+    clearCart();
+} );
+
+// $( '.order-btn' ).on( 'click', function () {
+//     clearCart();
+// } );
+
 
 //  Валюта
 $( '#currency' ).change( function () {
