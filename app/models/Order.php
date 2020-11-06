@@ -2,7 +2,12 @@
 
 namespace app\models;
 
+use app\A;
+use Illuminate\Support\Facades\App;
 use RedBeanPHP\R;
+use Swift_Mailer;
+use Swift_Message;
+use Swift_SmtpTransport;
 
 class Order extends AppModel {
 
@@ -35,6 +40,40 @@ class Order extends AppModel {
 
     public static function mailOrder( $order_id, $user_email ) {
 
+        // Create the Transport
+        $transport = ( new Swift_SmtpTransport( \ishop\App::$app->getProperty( 'smtp_host' ), \ishop\App::$app->getProperty( 'smtp_port'), \ishop\App::$app->getProperty( 'smtp_protocol' )))
+            ->setUsername( \ishop\App::$app->getProperty( 'smtp_login' ))
+            ->setPassword( \ishop\App::$app->getProperty( 'smtp_password' ));
 
+        // Create the Mailer using your created Transport
+        $mailer = new Swift_Mailer($transport);
+
+        // Create a message
+        ob_start();
+        require \APP . '/views/mail/mail_order.php';
+        $body = ob_get_clean();
+
+        // The message to client
+        $message_client = (new Swift_Message( "Ваш заказ №{$order_id} на сайте " . \ishop\App::$app->getProperty( 'shop_name' ) . " принят" ))
+            ->setFrom([\ishop\App::$app->getProperty( 'smtp_login' ) => \ishop\App::$app->getProperty( 'shop_name' )])
+            ->setTo( $user_email )
+            ->setBody( $body, 'text/html' );
+
+        // Send the message to admin
+        $message_admin = (new Swift_Message( "Сделан заказ №{$order_id}" ))
+            ->setFrom([\ishop\App::$app->getProperty( 'smtp_login' ) => \ishop\App::$app->getProperty( 'shop_name' )])
+            ->setTo( \ishop\App::$app->getProperty( 'admin_email' ))
+            ->setBody( $body, 'text/html' );
+
+        // Send the message to client
+        $result = $mailer->send( $message_client );
+
+        // Send the message to admin
+        $result = $mailer->send( $message_admin );
+        unset( $_SESSION['cart'] );
+        unset( $_SESSION['cart.qty'] );
+        unset( $_SESSION['cart.sum'] );
+        unset( $_SESSION['cart.currency'] );
+        $_SESSION['success'] = 'Спасибо за Ваш заказ, в ближайшее время с Вами свяжется наш менеджер.';
     }
 }
