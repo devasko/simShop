@@ -50,7 +50,7 @@ class Order extends AppModel {
 
         // Create a message
         ob_start();
-        require \APP . '/views/mail/mail_order.php';
+        require \APP . '/views/mailer/mail_order.php';
         $body = ob_get_clean();
 
         // The message to client

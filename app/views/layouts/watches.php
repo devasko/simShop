@@ -229,6 +229,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 </div>
 
+<div class="preloader"><img src="images/gear.svg" alt=""></div>
+
 
 <?php $curr = \ishop\App::$app->getProperty( 'currency' ); ?>
 <script>

@@ -95,9 +95,6 @@ class CartController extends AppController {
             $order_id = Order::saveOrder( $order_data );
 
             if ( $order_id ) $_SESSION['success'] = 'Ваш заказ успешно оформлен!';
-//            unset( $_SESSION['cart'] );
-//            unset( $_SESSION['cart.qty'] );
-//            unset( $_SESSION['cart.sum'] );
 
             $user_email = isset( $_SESSION['user']['email'] ) ? $_SESSION['user']['email'] : $_POST['email'];
             Order::mailOrder( $order_id, $user_email );
