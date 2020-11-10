@@ -9,7 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
     <base href="/">
     <?= $this->getMeta(); ?>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />

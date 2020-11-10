@@ -19,14 +19,14 @@ class Pagination {
         $this->uri = $this->getParams();
     }
     public function getHtml(  ) {
-        $back = null; // Ссылкам назад
-        $forward = null; // Ссылкам вперед
-        $startpage = null; // Ссылкам в начало
-        $endpage = null; // Ссылкам в конец
-        $page2left = null; // Вторая страница слева
-        $page1left = null; // Первая страница слева
-        $page1right = null; // Первая страница справа
-        $page2right = null; // Вторая страница справа
+        $back = null;
+        $forward = null;
+        $startpage = null;
+        $endpage = null;
+        $page2left = null;
+        $page1left = null;
+        $page1right = null;
+        $page2right = null;
 
         if ( $this->curPage > 1 ) {
             $back = "<li><a class='nav-link' href='{$this->uri}page=" . ( $this->curPage - 1 ) . "'>&lt;</a></li>";
@@ -91,6 +91,11 @@ class Pagination {
     public function getParams(  ) {
 
         $url = $_SERVER['REQUEST_URI'];
+        preg_match_all( "#filter=[\d,&]#", $url, $matches );
+
+        if ( count( $matches[0] ) > 1 ) {
+            $url = preg_replace( "#filter=[\d,&]+#", "", $url, 1 );
+        }
 
         $url = explode( '?', $url );
         $uri = $url[0] . '?';

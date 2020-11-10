@@ -29,7 +29,7 @@ class Filter {
         $this->attrs = $cache->get( 'filter_attrs' );
 
         if ( !$this->attrs ) {
-            $this->attrs = $this->getAttrs();
+            $this->attrs = self::getAttrs();
             $cache->set( 'filter_attrs', $this->attrs, 30 );
         }
         $filters = $this->getHtml();
@@ -39,6 +39,13 @@ class Filter {
     protected function getHtml() {
 
         ob_start();
+
+        $filter = self::getFilter();
+
+        if ( !empty( $filter )) {
+            $filter = rtrim( $filter, ',' );
+            $filter = explode( ',', $filter );
+        }
         require $this->tpl;
         return ob_get_clean();
     }
@@ -47,7 +54,7 @@ class Filter {
         return R::getAssoc( 'SELECT id, title FROM attribute_group' );
     }
 
-    protected function getAttrs() {
+    protected static function getAttrs() {
         $data = R::getAssoc( 'SELECT * FROM attribute_value' );
         $attrs = [];
         foreach ( $data as $key => $val ) {
@@ -56,4 +63,35 @@ class Filter {
         return $attrs;
     }
 
+    public static function getFilter() {
+        $filter = null;
+
+        if ( !empty( $_GET['filter'] )) {
+            $filter = preg_replace( "#[^\d,]+#", '', $_GET['filter'] );
+
+            $filter = trim( $filter, ',' );
+        }
+
+        return $filter;
+    }
+
+    public static function getCountGroups( $filter ) {
+        $filters = explode( ',', $filter );
+        $cache = Cache::instance();
+        $attrs = $cache->get( 'filter_attrs' );
+        if ( !$attrs ) {
+            $attrs = self::getAttrs();
+        }
+        $data = [];
+        foreach ( $attrs as $key => $attr ) {
+            foreach ( $attr as $index => $val ) {
+                if ( in_array( $index, $filters )) {
+                    $data[] = $key;
+                    break;
+                }
+            }
+        }
+        
+        return count( $data );
+    }
 }

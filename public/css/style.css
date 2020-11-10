@@ -3404,7 +3404,7 @@ li.greeting {
 	z-index: 9999;
 	background-color: #fefefe;
 	opacity: .7;
-	/*display: none;*/
+	display: none;
 }
 
 .preloader img {
